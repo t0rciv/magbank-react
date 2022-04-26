@@ -1,0 +1,10 @@
+.jumbotron {
+  background-image: url('../assets/hero.jpg');
+  background-size: cover;
+  background-position: center top;
+  color: aliceblue;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #dfdfdf;
+}
+
