@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import './CardList.css';
 
 const CardList = ({ posts }) => (
@@ -12,6 +12,7 @@ const CardList = ({ posts }) => (
                         <Card.Body>
                             <Card.Title>{title}</Card.Title>
                             <Card.Text>{excerpt}</Card.Text>
+                            <Button variant='danger'>{action}</Button>
                         </Card.Body>
                     </Card>
                 </Col>

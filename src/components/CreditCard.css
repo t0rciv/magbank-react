@@ -1,0 +1,12 @@
+.credit-card-title {
+    color: #8c00b2;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 992px) {
+    .credit-card-title {
+        font-size: 3rem;
+    }
+}
