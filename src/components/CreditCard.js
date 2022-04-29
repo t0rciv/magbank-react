@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Image } from 'react-bootstrap';
 import IconText from "./IconText";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { 
     faCreditCard,
     faMobile,

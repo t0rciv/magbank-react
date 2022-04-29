@@ -16,23 +16,23 @@ const Institutional = () => (
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
 
-                    <IconText icon={faMobileAlt} color='#fff' className='mb-2'>
-                        Sem fila e sem burocracia
-                    </IconText>
+                    <div className='px-2'>
+                        <IconText icon={faMobileAlt} color='#fff' className='mb-2'>
+                            Sem fila e sem burocracia
+                        </IconText>
 
-                    <IconText icon={faMobile} color='#fff' className='mb-2'>
-                        Simples e prático
-                    </IconText>
+                        <IconText icon={faMobile} color='#fff' className='mb-2'>
+                            Simples e prático
+                        </IconText>
 
-                    <IconText icon={faGlobe} color='#fff' className='mb-2'>
-                        Abertura de conta 100% online
-                    </IconText>
+                        <IconText icon={faGlobe} color='#fff' className='mb-2'>
+                            Abertura de conta 100% online
+                        </IconText>
 
-                    <IconText icon={faShieldAlt} color='#fff' className='mb-2'>
-                        Transações mais seguras
-                    </IconText>
-
-
+                        <IconText icon={faShieldAlt} color='#fff' className='mb-2'>
+                            Transações mais seguras
+                        </IconText>
+                    </div>
                     <Button variant='outline-light' className='mt-3'>
                         Abra sua conta
                     </Button>
@@ -40,6 +40,6 @@ const Institutional = () => (
             </Row>
         </Container>
     </section>    
-    );
+);
 
 export default Institutional;
