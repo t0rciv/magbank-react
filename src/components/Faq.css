@@ -1,0 +1,26 @@
+@import '../_variables.css';
+
+.accordion-button {
+    background-color: unset;
+    color: #fff;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #fff;
+    background-color: #3b2e4a;
+}
+
+.faq__item {
+    background-color: unset;
+    color: #fff;
+}
+
+.faq {
+    background-color: var(--color-faq-background);
+}
+
+.icon-text {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #fff;
+}

@@ -1,6 +1,8 @@
+@import '../_variables.css';
+
 .navbar {
-    background-color: #8c00b2;
-    border-bottom: 0.2rem solid #f05656;
+    background-color: var(--color-primary);
+    border-bottom: 0.2rem solid var(--color-secondary);
 }
 
 a.dropdown-toggle.nav-link {
