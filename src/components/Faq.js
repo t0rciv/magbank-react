@@ -22,7 +22,10 @@ const Faq = () => {
 
     return (
         <section className="faq py-3">
-            <Container className="py-5">
+            <Container className="pb-5">
+                <Row className="justify-content-center">
+                    <h2 className="faq-title my-5">Dúvidas Frequentes</h2>
+                </Row>
                 <Row className="d-flex align-items-center">
                     <Col className="d-lg-none mb-5" xs={12}>
                         <Row>
